@@ -2,8 +2,8 @@ export const EnglishMusicData = [
     {
         songName: "Senorita",
         songArtist: "Shown",
-        songSrc: "https://astra-musicapp.netlify.app/src/assets/Track/Senorita.mp3",
-        songPoster: "https://astra-musicapp.netlify.app/src/assets/imgs/Senorita.jpg"
+        songSrc: "./src/assets/Track/Senorita.mp3",
+        songPoster: "./src/assets/imgs/Senorita.jpg"
     },
     {
         songName: "Friends",
