@@ -2,8 +2,8 @@ export const EnglishMusicData = [
     {
         songName: "Senorita",
         songArtist: "Shown",
-        songSrc: "../../assets/Track/Senorita.mp3",
-        songPoster: "../../assets/imgs/Senorita.jpg"
+        songSrc: "./src/assets/Track/Senorita.mp3",
+        songPoster: "./src/assets/imgs/Senorita.jpg"
     },
     {
         songName: "Friends",
