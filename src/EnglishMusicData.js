@@ -2,14 +2,14 @@ export const EnglishMusicData = [
     {
         songName: "Senorita",
         songArtist: "Shown",
-        songSrc: "/src/assets/Track/Senorita.mp3",
-        songPoster: "/src/assets/imgs/Senorita.jpg"
+        songSrc: "./src/assets/Track/Senorita.mp3",
+        songPoster: "./src/assets/imgs/Senorita.jpg"
     },
     {
         songName: "Friends",
         songArtist: "Anne Marine",
-        songSrc: "/src/assets/Track/Friends.mp3",
-        songPoster: "/src/assets/imgs/Friends.jpg"
+        songSrc: "./src/assets/Track/Friends.mp3",
+        songPoster: "./src/assets/imgs/Friends.jpg"
     },
     {
         songName: "Attention",
