@@ -91,7 +91,7 @@ function MusicCard() {
         {
             songName: "Satisfya",
             songArtist: "Imarn Khan",
-            songSrc: "./assets/Track/Satisfy.mp3",
+            songSrc: "./assets/Track/Satisfya.mp3",
             songPoster: "https://i1.sndcdn.com/artworks-hwnBmzdwWili28GY-sSiYvA-t500x500.jpg"
         },
         {
