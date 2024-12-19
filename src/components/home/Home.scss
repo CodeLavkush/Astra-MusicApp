@@ -7,7 +7,7 @@
     position: relative;
 
     @media screen and (max-width: 768px) {
-        background-image: url("./assets/imgs/retro-music.jpg");
+        background-image: url("./public/assets/imgs/retro-music.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -15,7 +15,7 @@
     
 
     .left{
-        background-image: url("./assets/imgs/girl1.jpg");
+        background-image: url("./public/assets/imgs/girl1.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -27,7 +27,7 @@
         }
     }
     .right{
-        background-image: url("./assets/imgs/girl2.jpg");
+        background-image: url("./public/assets/imgs/girl2.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -116,15 +116,15 @@
         }
 
         .track-love{
-            background-image: url("./assets/imgs/purpleBg.jpg");
+            background-image: url("./public/assets/imgs/purpleBg.jpg");
             
         }
         .track-bhojpuri{
-            background-image: url("./assets/imgs/mountain.jpg");
+            background-image: url("./public/assets/imgs/mountain.jpg");
         }
         .track-english{
            
-            background-image: url("./assets/imgs/bg.jpg");
+            background-image: url("./public/assets/imgs/bg.jpg");
         }
     }
     
