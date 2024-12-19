@@ -3,7 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import Home from "./components/home/Home.jsx"
 import Bhojpuri from "./components/bhojpuri/Bhojpuri.jsx"
 import English from "./components/english/English.jsx"
-import Love from "./components/Love/love.jsx"
+import Love from "./components/love/Love.jsx"
 
 
 
