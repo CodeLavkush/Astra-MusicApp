@@ -7,7 +7,7 @@ import Slider from '@mui/material/Slider';
 import "./MusicCard.scss";
 
 
-function MusicCard({MusicDB}) {
+function MusicCard({MusicDB, imgURL}) {
 
     const musicLists = MusicDB;
 
@@ -110,7 +110,7 @@ function MusicCard({MusicDB}) {
         setAudioProgress(isNaN(progress) ? 0 : progress)
     }
     return (
-        <div className="container">
+        <div className="container" style={{backgroundImage: `url(${imgURL})`}}>
             <div className='left'>
                 <div className="card">
                     <audio src="./assets/Track/Senorita.mp3" ref={currentAudio} onEnded={handleNextSong} 
