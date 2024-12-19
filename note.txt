@@ -1,0 +1,4 @@
+added a youtube btn
+complete other sections
+import other songs
+fix that blink when hover on songs

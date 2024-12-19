@@ -1,0 +1,131 @@
+.home-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+
+    @media screen and (max-width: 768px) {
+        background-image: url("./assets/imgs/retro-music.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+
+    .left{
+        background-image: url("./assets/imgs/girl1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50%;
+        height: 100%;
+
+        @media screen and (max-width: 768px){
+            display: none;
+        }
+    }
+    .right{
+        background-image: url("./assets/imgs/girl2.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50%;
+        height: 100%;
+        @media screen and (max-width: 768px){
+            display: none;
+        }
+    }
+    .tracks{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        @media screen and (min-width: 770px) {
+            width: 60%;
+            height: 20%;
+            padding: 6rem 1rem;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+            backdrop-filter: blur(6px);
+            -webkit-backdrop-filter: blur(6px);
+            border: .1rem solid rgba(255, 255, 255, 0.18);
+            border-radius: 1rem;
+            box-shadow: 0 .2em .8em rgba(0,0,0,0.37);
+            bottom: 0;
+            margin-bottom: 6rem;
+            position: absolute;
+        }
+
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .track-bg{
+            border-radius: 50%;
+            width: 10rem;
+            height: 10rem;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            position: relative;
+            border: .2rem solid white;
+
+
+            img{
+                position: absolute;
+                width: 20%;
+                bottom: 0;
+                right: 1rem;
+                opacity: 0;
+                transition: opacity 120ms ease-in-out;
+                @media screen and (max-width: 768px) {
+                    opacity: 1;
+                }
+            }
+
+            a{
+                font-weight: bold;
+                text-decoration: none;
+                transition: opacity 120ms ease-in-out;
+                color: white;
+                opacity: 0;
+
+                @media screen and (max-width: 768px) {
+                    opacity: 1;
+                }
+            }
+
+            @media screen and (min-width: 768px) {
+                &:hover{
+                    a{
+                        opacity: 1;
+                    }
+    
+                    img{
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+        .track-love{
+            background-image: url("./assets/imgs/purpleBg.jpg");
+            
+        }
+        .track-bhojpuri{
+            background-image: url("./assets/imgs/mountain.jpg");
+        }
+        .track-english{
+           
+            background-image: url("./assets/imgs/bg.jpg");
+        }
+    }
+    
+}
