@@ -1,9 +1,11 @@
 import React from 'react'
+import MusicCard from "../card/MusicCard.jsx"
+import LoveSongs from "../../LoveSongs.js"
 
 function love() {
   return (
     <div>
-      This is the Love song page
+      <MusicCard MusicDB={LoveSongs} imgURL={"../../assets/imgs/bg_3.jpeg"}/>
     </div>
   )
 }
