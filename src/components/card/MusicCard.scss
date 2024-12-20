@@ -89,6 +89,15 @@
                     }
                 }
                 
+                .yt-link{
+                    margin-top: .4rem;
+                    text-align: center;
+                    text-decoration: none;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    gap: .6rem;
+                }
 
             }
         }
@@ -126,6 +135,21 @@
             @media screen and (max-width: 770px) {
                 height: 44rem
             }
+
+            .Link-home{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 80%;
+                text-decoration: none;
+
+                .home-Btn{
+                    width: 100%;
+                    color: white;
+                }
+            }
+
+            
 
             li{
                 padding: .2rem;

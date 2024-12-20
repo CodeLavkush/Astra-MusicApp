@@ -4,7 +4,10 @@ import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import SkipNextIcon from '@mui/icons-material/SkipNext';
 import PauseIcon from '@mui/icons-material/Pause';
 import Slider from '@mui/material/Slider';
+import HomeIcon from '@mui/icons-material/Home';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 import "./MusicCard.scss";
+import { Link } from 'react-router-dom'
 
 
 function MusicCard({MusicDB, imgURL}) {
@@ -71,7 +74,8 @@ function MusicCard({MusicDB, imgURL}) {
                 songName: musicObj.songName,
                 songArtist: musicObj.songArtist,
                 songSrc: musicObj.songSrc,
-                songPoster: musicObj.songPoster
+                songPoster: musicObj.songPoster,
+                ytLink: musicObj.ytLink
             }
         )
         setisAudioPlaying(true)
@@ -86,7 +90,8 @@ function MusicCard({MusicDB, imgURL}) {
                 songName: musicObject.songName,
                 songArtist: musicObject.songArtist,
                 songSrc: musicObject.songSrc,
-                songPoster: musicObject.songPoster
+                songPoster: musicObject.songPoster,
+                ytLink: musicObject.ytLink
             }
         )
         setisAudioPlaying(true)
@@ -137,6 +142,7 @@ function MusicCard({MusicDB, imgURL}) {
                             }
                             <SkipNextIcon className='icon' onClick={handleNextSong}/>
                         </div>
+                        <a className='yt-link' target='_blank' href={`${currentMusicDetails.ytLink}`}><YouTubeIcon/> Youtube</a>
                     </div>
                 </div>
             </div>
@@ -151,6 +157,7 @@ function MusicCard({MusicDB, imgURL}) {
                             </>
                         )
                     })}
+                    <Link to="/" className='Link-home'><li className="home-Btn"><HomeIcon /> Home</li></Link>
                 </div>
             </div>
         </div>

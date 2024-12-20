@@ -3,11 +3,7 @@ import MusicCard from "../card/MusicCard.jsx"
 import LoveSongs from "../../LoveSongs.js"
 
 function love() {
-  return (
-    <div>
-      <MusicCard MusicDB={LoveSongs} imgURL={"../../assets/imgs/bg_3.jpeg"}/>
-    </div>
-  )
+  return <MusicCard MusicDB={LoveSongs} imgURL={"../../assets/imgs/bg_3.jpeg"}/>
 }
 
 export default love
